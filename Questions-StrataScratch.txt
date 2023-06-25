@@ -1,0 +1,8 @@
+# Q1: Why is MSE frequently used as a loss function for Linear Regression?
+Ans: 
+1.MSE is calculated for a linear regression by calculating the squared distance to the regression line (ie the distance from the actual point to the predicted point) 
+for each example and computing the mean squared distance for all points. MSE tells you how closely a regression line fits a dataset and can be considered a measure of the quality of 
+the estimator.
+2.
+MSE is frequently used as a loss function for linear regression because it is differentiable, convex, penalizes larger errors more heavily, has a straightforward interpretation, 
+and is closely related to maximum likelihood estimation under certain assumptions.
